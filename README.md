@@ -27,12 +27,13 @@ cd Kadai_Kyouyuu/
 git switch -c sagyou
 echo "Add new line" >> index.html
 ```
-編集内容をpushし、プルリクエストをだす
+編集内容をpush
 ```
 git add index.html
 git commit -m "手順2を実行"
 git push -u origin sagyou
 ```
+GitHubのGUI上でプルリクエストをだす
 ## 手順3
 GitHubでプルリクエストをレビューし、mainブランチにマージ
 
@@ -73,13 +74,14 @@ GitHubでマージ
 git pull
 git switch -c sagyou3
 ```
-stylesheet.cssを追加してAへプルリクエストを出す
+stylesheet.cssを追加し、push
 ```
 echo "hello" >> stylesheet.css
 git add stylesheet.css
 git commit -m "手順5を実行"
 git push -u origin sagyou3
 ```
+GitHubのGUI上でプルリクエストをだす
 
 ## 手順6
 GitHubでプルリクエストをレビューしmainブランチにマージ
