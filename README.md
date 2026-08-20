@@ -34,9 +34,40 @@ git commit -m "手順2を実行"
 git push -u origin sagyou
 ```
 ## 手順3
+GitHubでプルリクエストをレビューし、mainブランチにマージ
 
 ## 手順4
+ローカルのmainブランチを最新化
+```
+git pull
+```
+作業ブランチを作成
+```
+git switch -c sagyou2
+```
+index.htmlを編集
+```
+echo "Add new line 2" >> index.html
+```
+ブランチをリモートに作成
+```
+git push -u origin sagyou2
+```
+コミットを作成しプルリクエストを出す
+```
+git add index.html
+git commit -m "手順４を実行"
+
+gh pr create
+Creating pull request for sagyou2 into main in Kousei102/Kadai_Kyouyuu
+
+? Title (required) Add new line 2
+? Body <Received>
+? What's next? Submit
+```
+GitHubでマージ
 
 ## 手順5
 
 ## 手順6
+GitHubでプルリクエストをレビューしmainブランチにマージ
