@@ -1,3 +1,4 @@
+<img width="847" height="287" alt="スクリーンショット 2026-08-20 143011" src="https://github.com/user-attachments/assets/d772b5c7-e6dd-427b-b0ed-c9d0ecf32344" />
 
 
 # 手順
